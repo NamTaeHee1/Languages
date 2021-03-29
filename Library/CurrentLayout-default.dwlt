@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 708, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 67
+  controlID: 88
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 36
+  controlID: 89
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -163,14 +163,14 @@ MonoBehaviour:
     height: 364
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 11}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,9 +314,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -34.416954, y: 117.40971, z: 20.848034}
+    m_Target: {x: 199.27473, y: -71.54228, z: -124.20581}
     speed: 2
-    m_Value: {x: -34.416954, y: 117.40971, z: 20.848034}
+    m_Value: {x: 199.27473, y: -71.54228, z: -124.20582}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -362,13 +362,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.19277853, y: -0.7467133, z: 0.24656223, w: -0.58736426}
+    m_Target: {x: -0.23494984, y: -0.7129908, z: 0.28140885, w: -0.5981564}
     speed: 2
-    m_Value: {x: -0.19272709, y: -0.746514, z: 0.24649644, w: -0.5872075}
+    m_Value: {x: -0.23530824, y: -0.71190083, z: 0.28098035, w: -0.5990637}
   m_Size:
-    m_Target: 42.427467
+    m_Target: 144.82164
     speed: 2
-    m_Value: 42.427467
+    m_Value: 138.5853
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -454,7 +454,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -588,20 +588,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets/Scripts/InGame
   m_ViewMode: 1
   m_StartGridSize: 76
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Scripts/InGame
   m_LastFoldersGridSize: 76
-  m_LastProjectPath: D:\Unity\Unity_Project\GoldMetal - QuarterView
+  m_LastProjectPath: C:\Users\user\Documents\GitHub\Languages
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 338}
-    m_SelectedIDs: 4a3d0000
-    m_LastClickedID: 15690
-    m_ExpandedIDs: 00000000e03b0000e23b0000e43b0000e63b0000e83b0000ea3b0000ec3b0000ee3b0000f03b0000f23b0000f43b0000f63b0000f83b0000fa3b0000fc3b000000ca9a3b
+    scrollPos: {x: 0, y: 154}
+    m_SelectedIDs: 683d0000
+    m_LastClickedID: 15720
+    m_ExpandedIDs: 00000000e03b0000e23b0000e43b0000e63b0000e83b0000ea3b0000ec3b0000ee3b0000f03b0000f23b0000f63b0000f83b0000fa3b0000fc3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ea330000504500001e3600008c4c000014370000a043000078390000f84000004a52000038520000285200003252000014510000de570000a25500001c540000f65b00005a520000045b00007a520000845b00003262000000560000da5400004a530100a239000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -740,9 +740,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7c09ffff9809ffff481dffff5a1dffff021fffff1e1fffffce32ffffe032ffff9037ffff8049ffff8866ffffa466ffff4c7affff627affff1ca4ffffb6a5ffffd2a5ffff76b9ffff88b9ffffa8d0ffffc4d0ffff68e4ffff7ae4ffff70fbffff
+      m_SelectedIDs: 88860000
+      m_LastClickedID: 34440
+      m_ExpandedIDs: 54f6ffff70fbffff9a380000f038000038390000107f00001c8b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
